@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_requested_for_email" table="x_58872_needit_needit">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Requested for email</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_requested_for_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_58872_needit_needit</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-08 03:41:46</sys_created_on>
+        <sys_id>42cf3dc7078000107ff5f9fc7c1ed06d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested for email</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_requested_for_email</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 03:58:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_dictionary_x_58872_needit_needit_u_requested_for_email</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_requested_for_email" table="x_58872_needit_needit">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Requested for email</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_requested_for_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_58872_needit_needit</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-08 03:41:46</sys_created_on>
+        <sys_id>42cf3dc7078000107ff5f9fc7c1ed06d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested for email</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_requested_for_email</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 03:58:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>1720881960</payload_hash>
+        <record_name>NeedIt.Requested for email</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:52</sys_created_on>
+        <sys_id>56b540c91b95001075c8fcc8cc4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef68b6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:52</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>92b540c91f950010f20c0e78cf31f873</update_guid>
+        <update_guid_history>92b540c91f950010f20c0e78cf31f873:0,eda58889fe95001015ddee820d15232a:528371058,c1601fa39f2cc010d43da2c3071ef815:0,b05057a32d2cc010438352a8889d9fee:528371058,ca9c6cb4a22c001085fdb05651885597:-1038211290,281f08b81ce400100c06d1b74f844123:528371058,f7be047818e40010b8b5f1ee29ccc471:-1038211290,48b5c7d322d00010ad946e6e5ab3d36b:528371058,df51dae2ec24330031f90dc28d7b8fc7:0,94511ae227243300a2902b1cb19cc570:528371058,59e1b2adb9603300c2b4b61ebf5ecc61:0,08b1ba6d63603300c817a4ff908aa632:528371058,f28ead809fe433008eb61522fe0b188b:0,c95ea580e4e43300c9be334f32cd215c:528371058,070a90bf725433000c9a638d44e8a646:0,8ad9187f8f543300b0a9f413c8008c8e:528371058,10df1e5f7294730028e1a44af0e73d18:0,f8bf925f5e94730009f77f25010956be:528371058,741dbc7d06903300f2f55950aae3bf28:0,01ecfc3daf903300603de711579887b0:528371058,9835ab994c987300a2cb7c88a9767c55:0,b51563994398730020deb5f7128ff194:528371058,9a4c634d8d183300d702458e9f898b4c:0,d62c2b0d491833001fd8a92d6600b73b:528371058,39eb2fc98f183300daedc888a031cfe1:0,f2cb27c9a21833003a244864b15d91f0:528371058,1b1c970996d433008098f34b43a1b909:0,2dfb5bc505d43300a4f055d6a899a7aa:528371058,9076ff88f094330078ba2df6b23ae515:0,f55677888e9433005e431dd5844b64a7:528371058,49658bc863903300c92cdab1acb4f7ef:0,045507c832903300885a81be68108e0f:528371058,49da2a8896103300b0ac9706fc3eb743:0,d3ba62886a1033008e3c7147c319083e:528371058,c0f766371cc43300f296b30531b3ccdc:0,06e7a237f9c43300b9ca73ea5cc798da:528371058,3fa5e1675040bb4070f39ef778870e35:0,88a56d277040bb4036c24cb810bf5efb:528371058,2e2d1c23170c7b40e56ef5909a56e7e4:0,2a2d1c23070c7b401ca527fff21bffde:-569956930</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:20:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>570fce59495c4b1894da195c94c54ac4</sys_id>
+        <sys_metadata>11b5cc891b95001075c8fcc8cc4bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested for email</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_requested_for_email</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_58872_needit_needit_u_requested_for_email">56b540c91b95001075c8fcc8cc4bcb73</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:20:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

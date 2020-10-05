@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <name>Update Overdue NeedIt Task Priority</name>
+        <order>100</order>
+        <script><![CDATA[// Set the record priority to 1 - Critical
+current.priority = 1;
+// Update the record in the database
+current.update();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 00:48:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0d66ba90f8232000d030dbce1050e7a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update Overdue NeedIt Task Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 01:17:02</sys_updated_on>
+    </sysevent_script_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;
+    &lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;condition_script/&gt;
+        &lt;description/&gt;
+        &lt;event_name&gt;x_58872_needit.overdueNeedItTask&lt;/event_name&gt;
+        &lt;name&gt;Update Overdue NeedIt Task Priority&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[// Set the record priority to 1 - Critical
+current.priority = 1;
+// Update the record in the database
+current.update();]]&gt;&lt;/script&gt;
+        &lt;synchronous&gt;false&lt;/synchronous&gt;
+        &lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-04-11 00:48:20&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;d0d66ba90f8232000d030dbce1050e7a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Update Overdue NeedIt Task Priority&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-04-11 01:17:02&lt;/sys_updated_on&gt;
+    &lt;/sysevent_script_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>760041277</payload_hash>
+        <record_name>Update Overdue NeedIt Task Priority</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:16:07</sys_created_on>
+        <sys_id>0ac5c8c91b95001075c8fcc8cc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef6c5560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:16:07</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>46c5c8c96d95001063ed8320bc7c3066</update_guid>
+        <update_guid_history>46c5c8c96d95001063ed8320bc7c3066:0,cecf5a5f0c947300cff55f6c4c93ef0b:626415547,391d30bdc0903300022cbd82b641d1b0:0,210d787dc2903300cf286e49c2e8eadf:626415547,f9356f99de987300465008bd81374f0d:0,6d25a7996e9873008948bc249dd7f9a9:626415547,eb4ce34def1833005ce604ecb387c9db:0,733c6f0d1f1833003166dfb984050a77:626415547,d7eb230de4183300ce04b32580e905fc:0,83db6bc9b7183300e4cf4b21a050bc56:626415547,a42c5b096fd433009a1c42e3a16461d6:0,501c530922d4330061544abe8eafb4ee:626415547,ed7673c8c9943300039489cb3f5dfae5:0,ca66fb88b89433006e83f8702daa42a5:626415547,42654fc848903300d94c0404d9acf167:0,4b550bc88090330035b19c8ed7e8ca51:626415547,42daaa88b0103300d22c9cbc08ee74af:1039466371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:24:58</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>30f1c981638b4af5b74b8fcb506caba1</sys_id>
+        <sys_metadata>d0d66ba90f8232000d030dbce1050e7a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Overdue NeedIt Task Priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a">0ac5c8c91b95001075c8fcc8cc4bcb66</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:24:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

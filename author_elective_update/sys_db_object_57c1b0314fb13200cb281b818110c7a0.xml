@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Historic NeedIt Data</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_58872_needit_historic_</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">b9661087070000107ff5f9fc7c1ed041</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 19:59:31</sys_created_on>
+        <sys_id>57c1b0314fb13200cb281b818110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Historic</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_object_57c1b0314fb13200cb281b818110c7a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 19:59:31</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_db_object_57c1b0314fb13200cb281b818110c7a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Historic NeedIt Data</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_58872_needit_historic_</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">b9661087070000107ff5f9fc7c1ed041</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 19:59:31</sys_created_on>
+        <sys_id>57c1b0314fb13200cb281b818110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Historic</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_object_57c1b0314fb13200cb281b818110c7a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 19:59:31</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>1633312987</payload_hash>
+        <record_name>Historic NeedIt Data</record_name>
+        <reverted_from/>
+        <source>f8b5cc891b95001075c8fcc8cc4bcb1c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:46</sys_created_on>
+        <sys_id>b4b5cc891b95001075c8fcc8cc4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef674070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:46</sys_updated_on>
+        <type>Table</type>
+        <update_guid>f0b5cc8940950010eeffbcc3c8504b2d</update_guid>
+        <update_guid_history>f0b5cc8940950010eeffbcc3c8504b2d:0,35dce8f4bc2c0010362976e97a43b32e:681376738,1ab13e6d5860330033e65f524a469946:0,2f0d3c7d92903300f075194bcace779f:0,17252b992c987300cef3c80dfddf34a8:0,5d4cef0d6418330082b012964c365fe2:0,db2c6b0d62183300c7b900322164f8e1:-896641707,20ebebc90d18330025ab0b62ac50c78d:0,7bcba7c9eb18330063aea5dd0a8d936e:-896641707,921c170913d43300617d26617552efb4:0,6efbdbc5edd43300c0f4d03051fcb242:-896641707,97667f882f9433002a0973faad0934b6:0,3656f788719433004d9da1cba792bb54:-896641707,4c654bc85590330074733ea16302b6a0:0,c55547c8c29033000dd5eacbf5565fa4:-896641707,f3cae688e1103300885af933d6deb341:0,6ccaa2882a10330012013d698c780bc7:-896641707,07e7263779c433005fd600abb901fa90:0,3dd7aef35ac433005b7f5cc9ce590d01:-896641707,c3a5a1673740bb403f289204e3a18835:2135265714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:22:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>27985f5bfef7496487078aa356cc96a4</sys_id>
+        <sys_metadata>57c1b0314fb13200cb281b818110c7a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Historic</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_db_object_57c1b0314fb13200cb281b818110c7a0</sys_update_name>
+        <sys_update_version display_value="sys_db_object_57c1b0314fb13200cb281b818110c7a0">b4b5cc891b95001075c8fcc8cc4bcb2d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:22:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

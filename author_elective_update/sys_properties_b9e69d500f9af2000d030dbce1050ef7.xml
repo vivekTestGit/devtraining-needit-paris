@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Minimum number of days required between when a NeedIt request is created and the When needed date.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_58872_needit.advancedNoticeDays</name>
+        <read_roles>x_58872_needit.admin</read_roles>
+        <suffix>advancedNoticeDays</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 03:23:02</sys_created_on>
+        <sys_id>b9e69d500f9af2000d030dbce1050ef7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_58872_needit.advancedNoticeDays</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_b9e69d500f9af2000d030dbce1050ef7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 03:35:23</sys_updated_on>
+        <type>string</type>
+        <value>2</value>
+        <write_roles>x_58872_needit.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=b9e69d500f9af2000d030dbce1050ef7"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_properties_b9e69d500f9af2000d030dbce1050ef7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Minimum number of days required between when a NeedIt request is created and the When needed date.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_58872_needit.advancedNoticeDays</name>
+        <read_roles>x_58872_needit.admin</read_roles>
+        <suffix>advancedNoticeDays</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 03:23:02</sys_created_on>
+        <sys_id>b9e69d500f9af2000d030dbce1050ef7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_58872_needit.advancedNoticeDays</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_b9e69d500f9af2000d030dbce1050ef7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 03:35:23</sys_updated_on>
+        <type>string</type>
+        <value>2</value>
+        <write_roles>x_58872_needit.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=b9e69d500f9af2000d030dbce1050ef7"/>
+</record_update>]]></payload>
+        <payload_hash>-1391715211</payload_hash>
+        <record_name>x_58872_needit.advancedNoticeDays</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:56</sys_created_on>
+        <sys_id>93b5c0c91b95001075c8fcc8cc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef69a790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:56</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>dfb5c0c9c0950010c37662dc7c684c7f</update_guid>
+        <update_guid_history>dfb5c0c9c0950010c37662dc7c684c7f:0,51cfd65fc19473006cc498813a472272:-368803235,c51dbc7d5a9033001ec2ad4ca1c0bff2:0,c10d387d56903300917a0339b45cb2f8:-368803235,c935eb99019873008f75b748d3bee967:0,2125a799239873002c2d27cc23dac801:-368803235,be4ca34d7e1833008efc4ffcd7e16e3c:0,9f3c6f0d4b18330072cd4e9f99a6b210:-368803235,6eebafc9bd18330068d2c3e2172602c8:0,f2db6bc986183300d4e07c7e74d5772f:-368803235,bb1cd709c0d4330059541b3068bd3df3:0,401c5309bdd43300640815b86ae01e82:-368803235,f47633c87594330058f07b50f49b1c1e:-1391715211</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:24:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>32e6a57f59ba444aa83fdefbf936c8c4</sys_id>
+        <sys_metadata>b9e69d500f9af2000d030dbce1050ef7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.advancedNoticeDays</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_properties_b9e69d500f9af2000d030dbce1050ef7</sys_update_name>
+        <sys_update_version display_value="sys_properties_b9e69d500f9af2000d030dbce1050ef7">93b5c0c91b95001075c8fcc8cc4bcb80</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:24:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

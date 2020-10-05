@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
+        <sys_id>e031f84c0f0232000d030dbce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_needit_task">6831f84c0f0232000d030dbce1050ea5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e031f84c0f0232000d030dbce1050ea8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:43:12</sys_updated_on>
+        <sys_user_role display_value="x_58872_needit.needit_task_user" name="x_58872_needit.needit_task_user">d431740c0f0232000d030dbce1050e47</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_security_acl_role_e031f84c0f0232000d030dbce1050ea8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
+        <sys_id>e031f84c0f0232000d030dbce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_needit_task">6831f84c0f0232000d030dbce1050ea5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e031f84c0f0232000d030dbce1050ea8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:43:12</sys_updated_on>
+        <sys_user_role display_value="x_58872_needit.needit_task_user" name="x_58872_needit.needit_task_user">d431740c0f0232000d030dbce1050e47</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-615080558</payload_hash>
+        <record_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:58</sys_created_on>
+        <sys_id>f7b504c91b95001075c8fcc8cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef6a2f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:58</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>37b504c981950010b44078d4d308447c</update_guid>
+        <update_guid_history>37b504c981950010b44078d4d308447c:0,06cf5a5f30947300bfa667fb74d2cb49:-1107274066,2d1dfc7d779033004e60fa3fdeb6e9a3:0,210db87d2f903300afc9793c89603e27:-1107274066,11352f996a987300766c7991ca0bd019:0,3125a799599873002303518674499adb:-1107274066,0f4ca34da818330051dab1cbd6196cce:0,e72cab0d34183300e9f93bb23939fc00:201930689,feebefc963183300b3f156adbc5241d6:0,04dba7c9aa1833001b5dea353433d08d:201930689,cc2c1b09ead43300c7ec9b83ca1fedde:0,b6fbdbc508d433008e3f59a4226c8f6e:201930689,457633c842943300a6127eb1031345be:0,c356f78838943300256d8103b48dfe73:201930689,69650fc882903300b0fca3a84d8198a0:0,dd5547c8e1903300b5f024483af6e4cf:201930689,21da6a8859103300631bc7ec8f14efc9:0,24caa2888c1033009b8a6aff231a70f3:201930689,b4f7e6371ac43300be923cc4d2e0b980:-800442232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_58872_needit_needit_task.x_58872_needit.needit_task_user">ed418c352fe71010652e351ef699b676</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:24:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5ebc7e238e854e6cb97fa7a6acf3a004</sys_id>
+        <sys_metadata>e031f84c0f0232000d030dbce1050ea8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit_task.x_58872_needit.needit_task_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">6831f84c0f0232000d030dbce1050ea5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_security_acl_role_e031f84c0f0232000d030dbce1050ea8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e031f84c0f0232000d030dbce1050ea8">f7b504c91b95001075c8fcc8cc4bcb7c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

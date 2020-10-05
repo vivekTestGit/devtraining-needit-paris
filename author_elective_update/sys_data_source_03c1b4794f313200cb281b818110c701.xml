@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>false</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path>needitimportdata.csv</file_path>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>CSV</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>1</header_row>
+        <import_set_table_label/>
+        <import_set_table_name>x_58872_needit_historic_</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>needitimportdata.csv (Uploaded)</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 19:59:31</sys_created_on>
+        <sys_id>03c1b4794f313200cb281b818110c701</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>needitimportdata.csv (Uploaded)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_source_03c1b4794f313200cb281b818110c701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 19:59:33</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_data_source_03c1b4794f313200cb281b818110c701</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>false</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path>needitimportdata.csv</file_path>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>CSV</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>1</header_row>
+        <import_set_table_label/>
+        <import_set_table_name>x_58872_needit_historic_</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>needitimportdata.csv (Uploaded)</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 19:59:31</sys_created_on>
+        <sys_id>03c1b4794f313200cb281b818110c701</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>needitimportdata.csv (Uploaded)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_source_03c1b4794f313200cb281b818110c701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 19:59:33</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>]]></payload>
+        <payload_hash>1543024673</payload_hash>
+        <record_name>needitimportdata.csv (Uploaded)</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:53</sys_created_on>
+        <sys_id>e6b540c91b95001075c8fcc8cc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef68e6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:53</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>6eb540c9149500100f31a7de57f0d9b3</update_guid>
+        <update_guid_history>6eb540c9149500100f31a7de57f0d9b3:0,a1bfd25fde9473005573fa5c7174e4b5:-432565961,851dbc7df6903300f13dcd0278e8a9c1:0,bdec707d28903300bdebc5cb4296ca18:-432565961,6c35ab99f69873001d81afd625c15cd8:0,5a15a399cf987300db88b729d54aab55:-432565961,624c634d8a183300f3e2fe0c85f04aff:0,103cab0daa183300f6dff3c01f90bfe6:-432565961,c2eb6fc934183300534329fac35bce71:0,b4dbe7c950183300249db5c57405f370:-432565961,a31cd709a4d4330015ceeed0c2b8cb77:0,e3fb1fc564d43300b6a1703ad912f558:-432565961,2876ff882d9433003a21d1bfaef5ddd3:0,ab563b88f89433007b0eaf6509230535:-432565961,d965cbc8f890330081fd716becfd26ac:0,395587c8cc9033003337b0efacf5da9d:-432565961,ddda2a88f01033009e7a20e5be98bfce:0,51cae28892103300f87d0ce44e9d6adf:-432565961,e0f7a637c8c43300e7b97d7be382ba4e:0,bad7eef363c4330008471e278949f156:-432565961,48b5e1674b40bb409a070708320384d2:1953974311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:19:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>8cb74cb332564e6b9b1b1995f6dc5381</sys_id>
+        <sys_metadata>03c1b4794f313200cb281b818110c701</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>needitimportdata.csv (Uploaded)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_data_source_03c1b4794f313200cb281b818110c701</sys_update_name>
+        <sys_update_version display_value="sys_data_source_03c1b4794f313200cb281b818110c701">e6b540c91b95001075c8fcc8cc4bcbc0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:19:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

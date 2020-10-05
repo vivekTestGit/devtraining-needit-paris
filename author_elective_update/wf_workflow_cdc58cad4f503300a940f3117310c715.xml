@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"ends":["89c58cad4f503300a940f3117310c718"],"subflows":[],"activities":{},"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_58872_needit_needit">state=13^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="13"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>4dc58cad4f503300a940f3117310c716,24d584214f903300a940f3117310c7e9,cf0648214f903300a940f3117310c729,fe46c8214f903300a940f3117310c76b,c83648214f903300a940f3117310c7fe,89c58cad4f503300a940f3117310c718</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>4dc58cad4f503300a940f3117310c716,24d584214f903300a940f3117310c7e9,cf0648214f903300a940f3117310c729,c83648214f903300a940f3117310c7fe,fe46c8214f903300a940f3117310c76b,89c58cad4f503300a940f3117310c718</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>NeedIt Approval</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="">4dc58cad4f503300a940f3117310c716</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 17:19:04</sys_created_on>
+        <sys_id>f335ccad4f503300a940f3117310c786</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 17:22:45</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="NeedIt Approval">cdc58cad4f503300a940f3117310c715</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>NeedIt Approval</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 17:19:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdc58cad4f503300a940f3117310c715</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_workflow_cdc58cad4f503300a940f3117310c715</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 17:19:04</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_workflow_version action="DELETE" query="workflow=cdc58cad4f503300a940f3117310c715^sys_id!=f335ccad4f503300a940f3117310c786">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>wf_workflow_cdc58cad4f503300a940f3117310c715</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"ends":["89c58cad4f503300a940f3117310c718"],"subflows":[],"activities":{},"stages":{}}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition table="x_58872_needit_needit"&gt;state=13^EQ&lt;item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="13"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;4dc58cad4f503300a940f3117310c716,24d584214f903300a940f3117310c7e9,cf0648214f903300a940f3117310c729,fe46c8214f903300a940f3117310c76b,c83648214f903300a940f3117310c7fe,89c58cad4f503300a940f3117310c718&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;4dc58cad4f503300a940f3117310c716,24d584214f903300a940f3117310c7e9,cf0648214f903300a940f3117310c729,c83648214f903300a940f3117310c7fe,fe46c8214f903300a940f3117310c76b,89c58cad4f503300a940f3117310c718&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;NeedIt Approval&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value=""&gt;4dc58cad4f503300a940f3117310c716&lt;/start&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-19 17:19:04&lt;/sys_created_on&gt;&lt;sys_id&gt;f335ccad4f503300a940f3117310c786&lt;/sys_id&gt;&lt;sys_mod_count&gt;64&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-19 17:22:45&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="NeedIt Approval"&gt;cdc58cad4f503300a940f3117310c715&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;NeedIt Approval&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-19 17:19:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cdc58cad4f503300a940f3117310c715&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_cdc58cad4f503300a940f3117310c715&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-19 17:19:04&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=cdc58cad4f503300a940f3117310c715^sys_id!=f335ccad4f503300a940f3117310c786"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>386154937</payload_hash>
+        <record_name>NeedIt Approval</record_name>
+        <reverted_from/>
+        <source>1d3d2b252f271010652e351ef699b6c3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:21:45</sys_created_on>
+        <sys_id>08b040f12fe71010652e351ef699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174dae268e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:21:45</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>00b040f1c8e710109defa4991adb1321</update_guid>
+        <update_guid_history>00b040f1c8e710109defa4991adb1321:386154937,8ec5c8c939950010082e2ddfa440bcb2:499248596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Approval">d361c4752fe71010652e351ef699b660</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:24:58</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>18c0f364bd394cc89c638afc307c0664</sys_id>
+        <sys_metadata>cdc58cad4f503300a940f3117310c715</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Approval</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>wf_workflow_cdc58cad4f503300a940f3117310c715</sys_update_name>
+        <sys_update_version display_value="wf_workflow_cdc58cad4f503300a940f3117310c715">08b040f12fe71010652e351ef699b621</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:24:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

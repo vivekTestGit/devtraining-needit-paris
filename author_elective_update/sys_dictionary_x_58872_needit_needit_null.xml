@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="" extends="task" table="x_58872_needit_needit">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>true</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Collection">collection</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_58872_needit_needit</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-24 22:46:34</sys_created_on>
+        <sys_id>c2cf3dc7078000107ff5f9fc7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_NULL</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 03:58:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_dictionary_x_58872_needit_needit_null</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;
+    &lt;sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_58872_needit_needit"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes/&gt;
+        &lt;audit&gt;true&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element/&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;max_length&gt;40&lt;/max_length&gt;
+        &lt;name&gt;x_58872_needit_needit&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-01-24 22:46:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c2cf3dc7078000107ff5f9fc7c1ed065&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;x_58872_needit_needit&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_dictionary_x_58872_needit_needit_NULL&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-09-27 03:58:32&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_dictionary&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1442981499</payload_hash>
+        <record_name>NeedIt</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:51</sys_created_on>
+        <sys_id>82b500c91b95001075c8fcc8cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef687f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:51</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>ceb500c914950010bb91aa70dbb33fcf</update_guid>
+        <update_guid_history>ceb500c914950010bb91aa70dbb33fcf:0,95a5488989950010563217433fc307d0:-1836492493,6c60dba3002cc010bd3b2bb6e02e852d:0,345057a37a2cc010996b159721558eaa:-1836492493,00ac20f49e2c00104c07264b5a5e6747:1990394692,d01fc4b871e40010e864c32c41701aed:-2130698379,b3be047870e400102504fb769172653b:1990394692,f3a587d3d4d00010e3dc31f070de10dd:-586426732,5351dae213243300bd65d24053f65b91:0,58511ae2832433004a5fbd4c8c596123:663639029,81e172adc260330075acc945bb41cef6:0,3ba17a6dd8603300e700794d2f03ccfe:663639029,ea8e6d80dce43300248af4f22d7818d0:0,b85ea580ade43300107cd3f0b79aa528:-315996286,470a90bffd5433009afede8c56e32b14:0,46d9187fa354330059d17c7c6ef1ad4e:-1523120894,48dfda5f63947300eb74cd6116560d89:0,b4bf925fac9473003d7cd066daf1e19c:-586426732,201d7c7d4b9033003d57c275afc639ef:0,7cecfc3d179033009aa1f1d2d678058d:-586426732,1c35ab99349873008142547179e47e1c:0,ad1563996d98730003ffbbc314f84964:-2130698379,0e4c234d0918330095e95c206c1d4fe1:0,862c2b0d471833001ffe52b3afa01018:-2130698379,adeb2fc95c1833006e1b6c5ea636ae9b:0,f6cb27c93718330006f787b6e335fc9b:-2130698379,431c5709ebd4330006b8b5d997eb2bc3:0,21fb5bc51ad433006a3aa8937015887c:-1291722480,c476bf881d943300a6deed3fa00f7ec3:0,f5567788c4943300b1fb3358ea0c982e:663639029,78658bc8239033006ca567739edab674:0,4055c3c8bb90330085493dda0303a5c8:-2130698379,38da2a882b103300f22e455d0465ca1f:0,93ba6288b91033002007212aaa2b181c:-2130698379,c8f766379cc43300b1a097ac141654ab:0,90e7623724c43300191f9d5c9d79ec36:663639029,b7a5a1679d40bb408877382c5c0405fe:0,c8a56d277b40bb40a6e84e01873d4ad6:-1291722480,ae2d1c23050c7b40d122813b5efff7b8:0,907b5c6fc5c87b404f99c9aa6d6b6509:-2130698379,40da90eb83c87b408c06b230c9614102:0,90ca1cabd6c87b40039bdaed96d511ee:-2105029234,90c818a732c87b404e1bca574b67c655:0,48b890a7a8c87b4070dfdcf7c7c87180:-2130698379,978754136c043b40f3ba4b650f2b1bfe:0,5587141346043b4041252c0caf71380f:-2130698379,2cfdc41743c03b402c87fd054b4839d3:0,a2ed841738c03b4031500374d2388e17:663639029,bf334c9bad803b40eac585cfcc79479e:-1522016703,1a8ae34734403b407bc7f96f58dd642b:118582238,c876d73af380f740c97172914087c8e7:-2130698379,ea36533ab080f7408433aa7e97c11198:0,dc36dff6ed80f740a358b6a4cc1186ab:-2130698379,acd0c336a840f740bb53db3fb06f3a33:0,bec04336b740f7406b57f7f264c40295:-2130698379,9d20c3f2ad40f74072932e56e161d9b1:0,d31043f26540f74025fe2f9a539051b3:-586426732,f766f331f0ccf340a432ee30365bd6e4:0,0e66b331e4ccf34084310bcadb5d9c52:-2130698379,83e5f7fd948cf340950fdfa697fcb491:0,b4e577fdc28cf34002e24bca1871935b:-1836492493,7d08635255b72b00f910e2b749811d57:0,71086352d8b72b00d72d738584bcc352:-262387377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:21:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>cf319406cf664f9881df24e10a9d8524</sys_id>
+        <sys_metadata>d1b5cc891b95001075c8fcc8cc4bcbb8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_NULL</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_58872_needit_needit_null">82b500c91b95001075c8fcc8cc4bcbd0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:21:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

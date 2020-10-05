@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2017-04-18 00:52:47</sys_created_on>
+        <sys_id>dc2b67f30f02f2000d030dbce1050e29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedEmailWrapper</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_dc2b67f30f02f2000d030dbce1050e29</sys_update_name>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2017-04-18 00:52:47</sys_updated_on>
+        <target_name>ScopedEmailWrapper</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_scope_privilege_dc2b67f30f02f2000d030dbce1050e29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2017-04-18 00:52:47</sys_created_on>
+        <sys_id>dc2b67f30f02f2000d030dbce1050e29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedEmailWrapper</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_dc2b67f30f02f2000d030dbce1050e29</sys_update_name>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2017-04-18 00:52:47</sys_updated_on>
+        <target_name>ScopedEmailWrapper</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>1075150447</payload_hash>
+        <record_name>ScopedEmailWrapper</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:56</sys_created_on>
+        <sys_id>dbb5c0c91b95001075c8fcc8cc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef69bf30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:56</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>1bb5c0c9b795001034ccbf0ae7f27c9a</update_guid>
+        <update_guid_history>1bb5c0c9b795001034ccbf0ae7f27c9a:0,e6cf5a5fce947300246e9570e05b8dbc:1683331245,511dfc7d7c903300344f066081e49917:0,ce0db87dc0903300c54a1ba3af53999c:1683331245,4535eb99d2987300b0f73772913ee78c:0,c625e799f49873002a08d46aa2786342:1683331245,724ca34d531833001b79cf86d7141d55:0,944caf0d90183300dec69a1c7c95768c:1683331245,aeebafc90e183300e17c23091a0832f9:0,23db6bc9af183300b96d7babf4b04292:1683331245,7f1c1b0982d4330090164f70d3f4e031:0,851cd30923d43300aeac2e225bf51c26:1683331245,7c7633c8619433000807d01a86874842:0,0a66fb885594330035fb7de758b2dfcd:1683331245,51650fc887903300703938279ae83300:1516098737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:25:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>04d285ee19e042078109521457c10419</sys_id>
+        <sys_metadata>dc2b67f30f02f2000d030dbce1050e29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedEmailWrapper</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_dc2b67f30f02f2000d030dbce1050e29</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_dc2b67f30f02f2000d030dbce1050e29">dbb5c0c91b95001075c8fcc8cc4bcb9a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:25:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

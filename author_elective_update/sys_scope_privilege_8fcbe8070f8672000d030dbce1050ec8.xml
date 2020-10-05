@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-15 03:01:24</sys_created_on>
+        <sys_id>8fcbe8070f8672000d030dbce1050ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TemplatePrinter.print</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_8fcbe8070f8672000d030dbce1050ec8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-15 03:01:24</sys_updated_on>
+        <target_name>TemplatePrinter.print</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_scope_privilege_8fcbe8070f8672000d030dbce1050ec8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-15 03:01:24</sys_created_on>
+        <sys_id>8fcbe8070f8672000d030dbce1050ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TemplatePrinter.print</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_8fcbe8070f8672000d030dbce1050ec8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-15 03:01:24</sys_updated_on>
+        <target_name>TemplatePrinter.print</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>1202024821</payload_hash>
+        <record_name>TemplatePrinter.print</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:56</sys_created_on>
+        <sys_id>dbb5c0c91b95001075c8fcc8cc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef69b6d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:56</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>1bb5c0c9169500102b29574f353fbc91</update_guid>
+        <update_guid_history>1bb5c0c9169500102b29574f353fbc91:0,9ccf965fde94730079df7be7a55dedb7:1890802295,811dfc7d349033007e593f16c1381502:0,72fcf47df09033003c30ecbddb9dbe08:1890802295,4d35eb99319873003f2c609be5eb2183:0,7c2527992198730080baecf523e800b5:1890802295,7a4ca34d801833005d826b42ef47754c:0,f23c2f0de018330039fbc154305575d6:1890802295,a6ebafc9b518330078875b41f590d7f1:0,56db2bc9571833009f0d55ff4d49e6f6:1890802295,731c1b0979d433001a03c83942ed4229:0,4f0c130959d43300f635cf63a0b80df2:1890802295,b87633c8d4943300ac814e9f4b33e02d:0,0266fb88f29433001a1e2dc8fe4c5485:1890802295,1965cbc8d0903300f51c34c4d9c6c8f7:101587307</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:24:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>c6302419ef6c4c8f956a703c2d66cb71</sys_id>
+        <sys_metadata>8fcbe8070f8672000d030dbce1050ec8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TemplatePrinter.print</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_8fcbe8070f8672000d030dbce1050ec8</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_8fcbe8070f8672000d030dbce1050ec8">dbb5c0c91b95001075c8fcc8cc4bcb91</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:24:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

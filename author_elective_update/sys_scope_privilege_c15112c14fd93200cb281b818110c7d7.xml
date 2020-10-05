@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-02 22:30:04</sys_created_on>
+        <sys_id>c15112c14fd93200cb281b818110c7d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.update</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_c15112c14fd93200cb281b818110c7d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-02 22:30:04</sys_updated_on>
+        <target_name>GlideRecord.update</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_scope_privilege_c15112c14fd93200cb281b818110c7d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-02 22:30:04</sys_created_on>
+        <sys_id>c15112c14fd93200cb281b818110c7d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.update</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_c15112c14fd93200cb281b818110c7d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-02 22:30:04</sys_updated_on>
+        <target_name>GlideRecord.update</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>1202748475</payload_hash>
+        <record_name>GlideRecord.update</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:56</sys_created_on>
+        <sys_id>d7b5c0c91b95001075c8fcc8cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef69bbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:56</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>17b5c0c9e2950010cebede210005ad98</update_guid>
+        <update_guid_history>17b5c0c9e2950010cebede210005ad98:0,80b54c89909500103744f24aadf6b2f3:-393836435,ed601fa3782cc0108e48c456d001d0b2:0,ba501ba3902cc010224b220c263908cd:-393836435,eb5ca0b4e42c0010463dff9fb3bef8d9:1582224768,8e1f88b86be4001050b4e089117f842e:-393836435,bdce847838e40010ee95bf4c2f711caa:-1670274269,8eb58bd303d000101a7e9a5785ea8c1e:-393836435,b3511ee2a1243300af23c3104bdc8a83:0,b1519ae208243300f3f9c476a404f235:-393836435,f5e1f2ad45603300d6321f5299c3eb33:0,2db1fa6db160330068f6dcd0d7abeec2:-393836435,578eed80efe43300007cce92a5731e40:0,9e5e2980e8e43300d30b886a18f06220:-393836435,630a90bf32543300571dc70979e9f4e3:0,efd9987fe2543300623ff13c2731735b:-393836435,e8df1e5f459473001f2febd9f2216fc5:0,3dcf1a5f9c947300807a7bf914a739c6:-393836435,dd1dfc7da39033004456b654fd784e14:0,910d787d1090330090d12a1f6ac36ba0:-393836435,c135eb995e9873004fc92d7ac6dfab8a:0,2125a799e7987300905e589f06c1cc8f:-393836435,fe4ca34da0183300f0dc5bf9c2703352:0,a73c6f0d3818330034baeb3d0894c851:-393836435,2eebafc9661833002c86f6032c4cfaf7:0,c7db6bc909183300c31ef5c42a9fa54a:-393836435,bb1c1b090cd43300a16690f8fa69652f:0,401c530952d43300b5d2faa53a7981b6:-393836435,b87633c82b943300bff23e7093dfb140:0,4e66fb88d5943300091cd03ac8bdc69b:-393836435,5d65cbc8d1903300a85d53a17a553efd:0,87550bc8c79033005b02d03929fca73b:-393836435,1dda6a88eb1033002299d65eb2a25336:0,36ca6688761033002fb6fd2096eb5cc1:-393836435,6cf7a6379ac43300eb94ed021e41d57f:0,39e7a237bbc4330057cde5930d57ea9b:-393836435,d0b5e167ab40bb4045987c3007e190ef:0,d6a521670840bb40497ba3ae186bc9bf:-393836435,0f2d5c23300c7b40d1a6b3e097b1107e:1355150065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:24:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>096ec4abfef34c58817cbf017125fa40</sys_id>
+        <sys_metadata>c15112c14fd93200cb281b818110c7d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.update</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_c15112c14fd93200cb281b818110c7d7</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_c15112c14fd93200cb281b818110c7d7">d7b5c0c91b95001075c8fcc8cc4bcb98</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:24:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

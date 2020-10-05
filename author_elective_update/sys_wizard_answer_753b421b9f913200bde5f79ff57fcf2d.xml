@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>NeedIt</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>NeedIt</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">45769487070000107ff5f9fc7c1ed0a2</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-03-09 21:49:40</sys_created_on>
+        <sys_id>753b421b9f913200bde5f79ff57fcf2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_wizard_answer_753b421b9f913200bde5f79ff57fcf2d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-09 21:49:40</sys_updated_on>
+        <table/>
+        <target_url>x_58872_needit_needit.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_wizard_answer_753b421b9f913200bde5f79ff57fcf2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>NeedIt</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>NeedIt</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">45769487070000107ff5f9fc7c1ed0a2</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-03-09 21:49:40</sys_created_on>
+        <sys_id>753b421b9f913200bde5f79ff57fcf2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_wizard_answer_753b421b9f913200bde5f79ff57fcf2d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-09 21:49:40</sys_updated_on>
+        <table/>
+        <target_url>x_58872_needit_needit.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>-1191498665</payload_hash>
+        <record_name>NeedIt</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:16:06</sys_created_on>
+        <sys_id>a1c588c91b95001075c8fcc8cc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef6c03b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:16:06</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>edc588c9d1950010101ce7f86b9d86fb</update_guid>
+        <update_guid_history>edc588c9d1950010101ce7f86b9d86fb:0,b9a5888962950010405f4438461e43f7:-555348924,c2605fa3f72cc010d1527bc831f62ee6:0,c15097a3602cc0108b576e9b1f83ba2f:-555348924,98ac20f47a2c001064f6673e19000fc3:-1871080152,fc1f08b8e3e4001028dc3c0f299ce6c5:-555348924,18ce0478c7e40010a02959cd0027add9:-1534426216,11bfd25fc1947300b0ad6a194d80e142:-555348924,b51d30bdc1903300de96fd85bfe1e02b:0,51ec307d079033003231ff4ed9d12838:-555348924,6d352f99fa987300dc87e0035ffe66bc:0,02156399b698730034c3deb32f40a5e6:-555348924,d74ce34d14183300973157f7fd642d6f:0,ae2c2b0d141833009d006f954e0d85aa:-555348924,13eb230d3e183300905767f850f2ffb8:0,87cb67c919183300ba42bda5cc8dd398:-555348924,582c5b09c1d433000f52dc946038cc75:0,b9fb9bc599d43300e6c927bf28e17717:-555348924,157673c8bb94330023a4e6092b491a9e:0,ce567788b29433001755710be8f93eed:-555348924,42654fc8df903300130133ca4429d50b:0,d05507c861903300e29c0b256ab82eaa:-555348924,0adaaa88ea1033006a94400cf7eb2d45:0,efba62888d10330017a16d42bd0e59aa:-555348924,d5f7e637bfc433006025f5887d8e88ff:0,b0e762373ec43300af64ce3defa16e9d:-555348924,20b52567a640bb404eb075d81ab124e2:0,90a5ad27cb40bb400fa33539e0582640:-555348924,972d9c23170c7b40fd957a20c15db48a:-38490845</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:21:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>08b1bdd42b0848b8867eba55b77c2e40</sys_id>
+        <sys_metadata>753b421b9f913200bde5f79ff57fcf2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Task">86fc7c7765022300aadb05e0fb3edfe0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_wizard_answer_753b421b9f913200bde5f79ff57fcf2d</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_753b421b9f913200bde5f79ff57fcf2d">a1c588c91b95001075c8fcc8cc4bcbfc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:21:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

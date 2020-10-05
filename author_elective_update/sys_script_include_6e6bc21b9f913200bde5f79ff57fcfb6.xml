@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeedItUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utils Script Include for the NeedIt application.</description>
+        <name>NeedItUtils</name>
+        <script><![CDATA[var NeedItUtils = Class.create();
+NeedItUtils.prototype = {
+    initialize: function() {
+    },
+	isDatePast: function(strDate){
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		
+		// If the testdate is before rightnow, return true, else return false
+		if (testdate.before(rightnow)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+		isDateToday: function(strDate){
+		
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		// Get the date portion of rightnow and testdate (no timestamp)
+		var today = rightnow.getLocalDate();
+		var istoday = testdate.getLocalDate();
+	
+		// Compare today and istoday to see if they are the same day
+		if(today.compareTo(istoday) == 0){
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+    type: 'NeedItUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 21:52:03</sys_created_on>
+        <sys_id>6e6bc21b9f913200bde5f79ff57fcfb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 21:52:03</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>890c6eb7dbd6d7407d8cf22ebf9619fa</instance_id>
+        <instance_name>dev60396</instance_name>
+        <name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_58872_needit.NeedItUtils&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description&gt;Utils Script Include for the NeedIt application.&lt;/description&gt;
+        &lt;name&gt;NeedItUtils&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var NeedItUtils = Class.create();
+NeedItUtils.prototype = {
+    initialize: function() {
+    },
+	isDatePast: function(strDate){
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		
+		// If the testdate is before rightnow, return true, else return false
+		if (testdate.before(rightnow)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+		isDateToday: function(strDate){
+		
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		// Get the date portion of rightnow and testdate (no timestamp)
+		var today = rightnow.getLocalDate();
+		var istoday = testdate.getLocalDate();
+	
+		// Compare today and istoday to see if they are the same day
+		if(today.compareTo(istoday) == 0){
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+    type: 'NeedItUtils'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-09 21:52:03&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6e6bc21b9f913200bde5f79ff57fcfb6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;NeedItUtils&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-09 21:52:03&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-974100844</payload_hash>
+        <record_name>NeedItUtils</record_name>
+        <reverted_from/>
+        <source>e9b5cc891b95001075c8fcc8cc4bcbfb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:57</sys_created_on>
+        <sys_id>e7b5c0c91b95001075c8fcc8cc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8ef69e720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:57</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>27b5c0c97c950010363deb8ff4f45dda</update_guid>
+        <update_guid_history>27b5c0c97c950010363deb8ff4f45dda:0,77a54c89fb95001079064ab26e7da59f:257620316,e5601fa3002cc010c598d7e49dfe41df:0,e6501ba3352cc010e771216beea10985:257620316,06dce8f41f2c0010124d0303b3dc43c6:1934941169,f11f88b89de40010032064c6c8d35a01:257620316,edce84782fe4001018334dd421ccf389:1630989544,c3bf565fc4947300e9568194c326b6f9:257620316,d11dfc7d2b903300df7e4913af6b9b45:0,2dfc747d189033007a6655f811b33da0:257620316,c535eb99bd9873009f6fcd2d984161ba:0,0c252799ec987300771f5f8b3a169848:257620316,3e4ca34d5018330008b4911f1d138076:0,423c2f0d4c183300d71623cf00b1019c:257620316,3eebefc992183300660b12d52a9c7340:0,e5db2bc98018330018f92154c2730583:257620316,8c2c1b09b6d43300b94b4438ccf6e26c:0,de0cdfc598d4330038d45055a90d7396:257620316,b07633c8d3943300616fa350fd779065:0,7566fb88f8943300d34bacc1c931cd5b:257620316,e1650fc84b903300bc340db7617ce522:0,3255c7c817903300cbdb3dbe8aff30ef:257620316,29da6a88ac103300d86981ece793c763:0,22ca6688d9103300823fa8025330fb9c:257620316,b8f7a637dec4330090681c48f7de23b8:0,78e762371dc433001543500096e7a982:257620316,14b525678140bb4052a88de29810050c:0,c6a521670d40bb402444ccc1ef0a2275:257620316,c72d5c232c0c7b40ce69372246c1729e:703460957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 17:22:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>25f84c07934341d48d5ae1bb5844fec9</sys_id>
+        <sys_metadata>6e6bc21b9f913200bde5f79ff57fcfb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6">e7b5c0c91b95001075c8fcc8cc4bcbda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 17:22:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
