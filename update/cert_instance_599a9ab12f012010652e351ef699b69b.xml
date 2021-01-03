@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cert_instance">
+    <cert_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to>it_application_owner</assign_to>
+        <assign_to_empty>Create Unassigned Task</assign_to_empty>
+        <assign_to_group/>
+        <assignment_type>User Field</assignment_type>
+        <audit_type>data_cert</audit_type>
+        <business_calendar/>
+        <can_iterate>false</can_iterate>
+        <cert_audit_instance/>
+        <cert_condition/>
+        <cert_schedule display_value="Business Application Certification Quarterly">b0755e23c7723200d20ee48bca9763a7</cert_schedule>
+        <complete_by>2020-12-23 18:08:18</complete_by>
+        <completed/>
+        <condition/>
+        <conditional>false</conditional>
+        <create_tasks>false</create_tasks>
+        <display_fields>name,application_type</display_fields>
+        <entered_time/>
+        <fields>business_criticality,data_classification,contract_end_date,active,active_user_count,install_status,user_base,last_change_date,it_application_owner,owned_by</fields>
+        <filter display_value="Business Application Certification Filter - 1">b5a31f553b323200d20ee79c83efc465</filter>
+        <group/>
+        <health_window>7</health_window>
+        <health_window_unit>days</health_window_unit>
+        <instructions><![CDATA[<p>Please ensure data completeness and accuracy of the data related to Business Applications for which you are identified as the Application Owner.</p>]]></instructions>
+        <is_building>false</is_building>
+        <last_run_date>2020-09-13 06:47:04</last_run_date>
+        <name>Business Application Certification Quarterly</name>
+        <next_scheduled_run/>
+        <number>CRTINST0010007</number>
+        <offset/>
+        <offset_type>0</offset_type>
+        <percent_complete>0</percent_complete>
+        <prev_last_run_date/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-04-01 00:00:00</run_period>
+        <run_start>2020-12-13 18:08:18</run_start>
+        <run_time>1969-12-31 18:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[ ]]></script>
+        <short_description/>
+        <source_filter/>
+        <source_table/>
+        <stability_count>1</stability_count>
+        <state>2</state>
+        <sys_class_name>cert_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-13 18:08:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>599a9ab12f012010652e351ef699b69b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Business Application Certification Quarterly</sys_name>
+        <sys_package display_value="Application Portfolio Management" source="sn_apm">65c1ca2cdbb2120091285411cf961963</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cert_instance_599a9ab12f012010652e351ef699b69b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-13 18:08:45</sys_updated_on>
+        <table>cmdb_ci_business_app</table>
+        <task_description>Remedy the discrepancies listed in the Audit Results below</task_description>
+        <template/>
+        <threshold_count>5</threshold_count>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user/>
+    </cert_instance>
+</record_update>
